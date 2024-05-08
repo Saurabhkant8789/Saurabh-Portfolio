@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1uD2W3JAox_lasapYhmA9gXcSB222xrJr/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,13 +47,6 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -84,10 +77,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+  
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -123,22 +113,38 @@ const educationInfo = {
   schools: [
     {
       schoolName: "St.Pauls ICSE",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      logo: require("./assets/images/unnamed.png"),
+      subHeader: "Secondary School Education",
+      duration: "July 2011 - April 201",
+      desc: "Duration From class 5th to 10th",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "completed 10th with 82%",
+        
       ]
     },
+
     {
-      schoolName: "ABV IIITM GWALIOR ",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "St.Judes Vidyalya ",
+      logo: require("./assets/images/st.png"),
+      subHeader: "Higher School Education",
+      duration: "July 2017 - April 2019",
+      desc: "Duration From class 11th to 12th",
+      
+    },
+
+
+    {
+      CollegeName: "ABV IIITM GWALIOR ",
+      logo: require("./assets/images/Logo.jpg"),
       subHeader: "Integrated Mtech in Information Technology",
       duration: "May 2020 - May 2025",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems.",
+      descBullets: [
+        "Current CGPA - 7.24",
+        
+      ]
+    ,
+
     }
   ]
 };
@@ -173,7 +179,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "PixelNX",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/pix.jpeg"),
       date: "May 2024 – July 2024",
       desc: "Working on SaaS product using React and Nodejs."
     }
@@ -191,11 +197,11 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Online Reservation Portal",
+  title: "Projects",
+  
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/resr.webp"),
       projectName: "Reservation Portal using CPP Program",
       projectDesc: "Implemented a efficient solution for ticket booking using linked list and data structure,real time display of booking details and seat availability and also optimized the time and space complexity",
       footerLink: [
@@ -207,13 +213,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/01.jpg"),
+      projectName: "BookingHub Using React & Nodejs",
+      projectDesc: "Booking system for multiple business SaaS application,is a user-friendly Script that leverages the power of React JS technology. This versatile tool provides both admin and user dashboards, ensuring a seamless and enjoyable editing experience.",
+      
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: ""
         }
       ]
     }
@@ -234,50 +241,50 @@ const achievementSection = {
       title: "Building the Web - A Journey into Web Development",
       subtitle:
         "SessionBased on Web Development.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/Web.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "DSA Essential Bootcamp",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Three Days Bootcamp by LetsUpgrade.",
+      image: require("./assets/images/let.png"),
+      // imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1OcHpO-FhsfMbcaJeHiPJcgPlUZ6winkS/view?usp=sharing"
         }
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
